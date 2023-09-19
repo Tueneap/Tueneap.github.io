@@ -6,34 +6,70 @@
 		<style>
 			table{
 				background: linear-gradient(340deg, #005e8066, #006b9166, #005e8066);
-				color:white;
-				font-weight: bolder;
 				height: 100%;
 				width: 95vw;
 				margin: auto;
 			}
 			td{
 				vertical-align: top;
-				<!-- border: 5px solid; -->
+				<!-- border: 1px dashed; -->
 			}
 			tr{
-				<!-- border: 5px solid; -->
+				<!-- border: 1px dashed; -->
 			}
 			body{
+				color:white;
 				background-color: #002430;
 				background-image: url("bg_repeat.png");
+				<!-- fallback font -->
+				font-family: Serif;
+				font-family: Verdana;
 			}
 			table{
 				border: 2vh solid #0083B3;
 				border-style: ridge;
+				padding-left:20px;
+				padding-right:20px;
+			}
+			#title{
+				font-family: "Brush Script MT";
+				font-size: 5vh;
+				text-align: center;
+				background: linear-gradient(to bottom, #E11E69, #E1341E, #E1951E 80%);
+				-webkit-text-fill-color: transparent;
+				-webkit-background-clip: text;
 			}
 		</style>
 	</head>
 	<body>
+		<h1 id="title">WELCOME TO MY TRASHY WEBSITE</h1>
 		<table>
-			<td>
-				<blockquote class="imgur-embed-pub" lang="en" data-id="a/LGYWm5U"  ><a href="//imgur.com/a/LGYWm5U">stream</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-			</td>
+			<tr>
+				<tr><td><h3>Images you can show on screen</h3></td></tr>
+				<td>
+					<iframe width="542" height="486" margin="10px">a</iframe>
+					<!-- <blockquote class="imgur-embed-pub" lang="en" data-id="a/LGYWm5U"  ><a href="//imgur.com/a/LGYWm5U">stream</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script> -->
+				</td>
+			</tr>
+			
+			<tr>
+				<tr><td><h3>Sounds you can play on stream</h3></td></tr>
+				<td>
+					<ul id="soundList"></ul>
+					<iframe src="https://pastebin.com/raw/inLkjCpF" width="500px">a</iframe>
+				</td>
+			</tr>
+			
+			<tr>
+				<tr><td><h3>Change notes</h3></td></tr>
+				<td>
+					<p font-weight="normal">
+					moved to github, hopefully this will make readability better <br>
+					if not, then why don't you take a seat right over there
+				</td>
+			</tr>
 		</table>
+	<!-- eof -->
+	<script src="mainscripts.js"></script>
 	</body>
 </html>
