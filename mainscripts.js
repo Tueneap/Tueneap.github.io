@@ -15,5 +15,3 @@ function populatelist()
 	  list.appendChild(listItem);
 	});
 }
-
-populatelist();
