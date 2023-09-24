@@ -26,8 +26,10 @@
 				font-family: Verdana;
 			}
 			table{
-				border: 2vh solid #0083B3;
-				border-style: ridge;
+				border: 0.7vh solid #0083B3;
+				box-shadow: 0 0 100px rgba(55, 75, 125, 0.6);
+				border-style: outset;
+				border-radius: 35px;
 				padding-left:20px;
 				padding-right:20px;
 			}
@@ -39,6 +41,12 @@
 				-webkit-text-fill-color: transparent;
 				-webkit-background-clip: text;
 			}
+			#div-title{
+				<!-- background: linear-gradient(to bottom, #00000000, #FFFFFF11, #00000000); -->
+			}
+			#div-comment{
+				color: #8a8a63
+			}
 			
 			a { color: #00B38A }
 			a:link { color: #00B38A }
@@ -47,7 +55,9 @@
 		</style>
 	</head>
 	<body>
-		<h1 id="title">WELCOME TO MY TRASHY WEBSITE</h1>
+		<div id="div-title">
+			<h1 id="title">WELCOME TO MY TRASHY WEBSITE</h1>
+		</div>
 		<table>
 			<tr>
 				<tr><td><h3>Images you can show on screen</h3></td></tr>
@@ -68,11 +78,22 @@
 			</tr>
 			
 			<tr>
-				<tr><td><h3>Change notes</h3></td></tr>
+				<tr><td><h3>misc commands n shiet</h3></td></tr>
 				<td>
-					<p font-weight="normal">
+					<p>
 					moved to github, hopefully this will make readability better <br>
 					if not, then why don't you take a seat right over there
+				</td>
+			</tr>
+			
+			<tr>
+				<tr><td><h3>Change notes</h3></td></tr>
+				<td>
+					<p>
+					!sanity - check your sanity<br>
+					!leaderboard - check the top chatters<br>
+					!scratch &lt;username&gt; (or &#64;&lt;username&gt;)
+					<div id="div-comment">&emsp;sometimes it doesn't work on the first time, i have to manually download it so be patient</div>
 				</td>
 			</tr>
 		</table>
